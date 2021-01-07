@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bella ciao</title>
+								<meta charset="utf-8">
+								<meta name="viewport" content="width=device-width, initial-scale=1">
+								 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+								 <link rel="stylesheet" type="text/css" href="reservation.css">
+								<link href='https://fonts.googleapis.com/css?family=Antic Didone' rel='stylesheet'>
+								<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+							  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+							  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+							  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+                             
+							</head>
+							<body>
+								<header>
+								<nav class="navbar navbar-expand-sm  justify-content-end ">
+							 
+							  <a class="navbar-brand" href="index.html">
+							    <img class="logo1" src="images/logo1.png" alt="logo">
+							  </a>
+							  
+							  
+							  <ul class="navbar-nav">
+							    <li class="nav-item">
+							      <a class="nav-link" href="Welcome.html">WELCOME</a>
+							    </li>
+							    <li class="nav-item">
+							      <a class="nav-link" href="Menu.html">MENU</a>
+							    </li>
+							    <li class="nav-item">
+							      <a class="nav-link" href="privatedining.html">PRIVATE DINING</a>
+							    </li>
+							    <li class="nav-item">
+							      <a class="nav-link" href="our team.html">OUR TEAM</a>
+							    </li>
+							    <li class="nav-item">
+							      <a class="nav-link" href="reservation.html">RESERVATION</a>
+							    </li>
+							  </ul>
+							</nav>
+							  <img class="img1" src="images/r11.jpg">
+ <section id="intro" class="content c-intro container-sm revealable">
+			<h1>Hours and Guest Policies</h2>
+				 <hr class="solid">
+	        <p>Quince serves dinner Tuesday through Saturday and is closed Sunday and Monday. We are open for private dining 7 days a week. Our hours are Tuesday through Thursday from 5:30 p.m. to 9:00 p.m., Friday and Saturday from 5:00 p.m. to 9:00 p.m.</p>
+	        <p>To make a reservation please call 415.775.8500, Monday through Saturday from 10:00 a.m. to 6:00 p.m. or reserve online through OpenTable using the links below. Our Guest Services team can also be reached via email at info@quincerestaurant.com.</p>
+	    </section>
+
+  <img class="img1" src="images/r15.jpg">
+  <section id="intro" class="content c-intro container-sm revealable">
+  <h1>Dining Room Reservations</h1>
+   <hr class="solid">
+	        <p>Main Dining Room reservations can be made up to three months in advance.<br><br>Quince features a nightly tasting menu in the Main Dining Room that highlights the seasonal bounty of Northern California. The cost of the tasting menu is 298 dollars per person.<br><br>When making your reservation, please indicate any dietary restrictions. Due to the complexity of the menu, it may not be possible to accommodate all restrictions and food allergies.<br><br>All reservations are confirmed by phone at least three days prior. Any cancellations must be made at least 48 hours prior to the time of the reservation to avoid a 298 dollar (plus tax) per person late cancellation charge; this policy applies to same day reservations as well. If we are unable to confirm with you, your reservation will be cancelled one day prior to the reservation at 5:00 pm. We thank you for your understanding.</p>
+	         <a href=#><button class="btn"  type="button"  data-toggle="modal" data-target="#myModal">Dining Room Reservations </button></a>
+	         <br><br><br>
+							 <div class="modal fade" id="myModal">
+							 	 <div class="modal-dialog">
+      <div class="modal-content">
+      
+							 	<div class="modal-header">
+							 		<button type="button" class="close" data-dismiss="modal">&times;</button>
+							 	</div>
+							 	 <div class="modal-body">
+							 	 <h3>Find a Table</h3>
+								 <hr class="solid">
+								 <div class="container">
+								 	<form class="frm">
+								 		<p>Your Name</p>
+								<p><input type="text" class="name" name="name" required=""></p>
+								<p>Email Address</p>
+								<p><input type="Email" class="email" name="Email" required=""></p>
+								<p>Phone Number</p>
+								<p><input type="text" class="phn" name="Number"></p>
+								<p>Number of People- Optinal</p>
+								<p><select id="seats" class="unselected" name="seats">
+									<option value="" selected disabled></option>
+									<option value="1">1 Person</option>
+									<option value="2">2 People</option>
+									<option value="3">3 People</option>
+									<option value="4">4 People</option>
+									<option value="5">5 People</option>
+									<option value="6">6 People</option>
+									<option value="7">7 People</option>
+									<option value="8">8+ People</option>
+								</select></p>
+								<p>Date</p>
+								<p><input class="date" type="Date" name=""></p>
+								<p>Time</p>
+								<p><select id="time" class="unselected" name="time"></p>
+									<option value="" selected disabled></option>
+
+									    <option value="1030">10:30 AM</option>
+
+									    <option value="1100">11:00 AM</option>
+                                         
+									    <option value="1130">11:30 AM</option>
+									
+										<option value="1200">12:00 AM</option>
+
+										<option value="1230">12:30 PM</option>
+
+										<option value="1300">1:00 PM</option>
+
+										<option value="1330">1:30 PM</option>
+
+										<option value="1400">2:00 PM</option>
+
+										<option value="1430">2:30 PM</option>
+
+										<option value="1500">3:00 PM</option>
+
+										<option value="1530">3:30 PM</option>
+
+										<option value="1600">4:00 PM</option>
+
+										<option value="1630">4:30 PM</option>
+
+										<option value="1700">5:00 PM</option>
+
+										<option value="1730">5:30 PM</option>
+
+										<option value="1800">6:00 PM</option>
+
+										<option value="1830">6:30 PM</option>
+
+										<option value="1900">7:00 PM</option>
+
+										<option value="1930">7:30 PM</option>
+
+										<option value="2000">8:00 PM</option>
+
+										<option value="2030">8:30 PM</option>
+
+										<option value="2100">9:00 PM</option>
+
+										<option value="2130">9:30 PM</option>
+
+										<option value="2200">10:00 PM</option>
+									
+										<option value="1030">10:30 PM</option>
+
+								 		<option value="2300">11:00 PM</option>
+									
+										<option value="2330">11:30 PM</option>
+									
+										<option value="2400">12:00 PM</option>
+									
+								</select>
+								<p>Special Request</p>
+								<p><input type="text" name="request" value="Type here....." class="sr"></p>
+								<p><input type="button" class="btn" name="btn" value="Submit"></p>
+								</form>
+								 		
+	    </section>
+	    <img class="img1" src="images/s5.jpg">
+	    <section id="intro" class="content c-intro container-sm revealable">
+	    	<h1>Salon Reservations</h1>
+	    	<hr class="solid">
+	    	 <p>The Salon offers an abbreviated tasting menu that showcases our unique partnership with Fresh Run Farm. Located adjacent to the Main Dining Room, the Salon provides a more convivial environment with cocktail table seating.</p>
+	    	 <p>Reservations are required for the Salon and can be made up to one month in advance.</p>
+	    	 <p>All reservations are confirmed by phone at least three days prior. Any cancellations must be made at least 48 hours prior to the time of the reservation to avoid a 195 dollar (plus tax) per person late cancellation charge; this policy applies to same day reservations as well. If we are unable to confirm with you, your reservation will be cancelled one day prior to the reservation at 5:00 pm. We thank you for your understanding.</p>
+	    	 <a href=#><button  class="button"  type="button"  data-toggle="modal" data-target="#myModal1">Salon Reservations </button></a>
+	         <br><br><br>
+							 <div class="modal fade" id="myModal1">
+							 	 <div class="modal-dialog">
+      <div class="modal-content">
+      
+							 	<div class="modal-header">
+							 		<button type="button" class="close" data-dismiss="modal">&times;</button>
+							 	</div>
+							 	 <div class="modal-body">
+							 	 <h3>Reservation at The Salon at <br> Bella Ciao</h3>
+								 <hr class="solid">
+								 <div class="container">
+								 	<form class="frm">
+								 		<p>Your Name</p>
+								<p><input type="text" class="name" name="name" required=""></p>
+								<p>Email Address</p>
+								<p><input type="Email" class="email" name="Email" required=""></p>
+								<p>Phone Number</p>
+								<p><input type="text" class="phn" name="Number"></p>
+								<p>Number of People- Optinal</p>
+								<p><select id="seats" class="unselected" name="seats">
+									<option value="" selected disabled></option>
+									<option value="1">1 Person</option>
+									<option value="2">2 People</option>
+									<option value="3">3 People</option>
+									<option value="4">4 People</option>
+									<option value="5">5 People</option>
+									<option value="6">6 People</option>
+									<option value="7">7 People</option>
+									<option value="8">8+ People</option>
+								</select></p>
+								<p>Date</p>
+								<p><input class="date" type="Date" name=""></p>
+								<p>Time</p>
+								<p><select id="time" class="unselected" name="time"></p>
+									<option value="" selected disabled></option>
+
+									    <option value="1030">10:30 AM</option>
+
+									    <option value="1100">11:00 AM</option>
+                                         
+									    <option value="1130">11:30 AM</option>
+									
+										<option value="1200">12:00 AM</option>
+
+										<option value="1230">12:30 PM</option>
+
+										<option value="1300">1:00 PM</option>
+
+										<option value="1330">1:30 PM</option>
+
+										<option value="1400">2:00 PM</option>
+
+										<option value="1430">2:30 PM</option>
+
+										<option value="1500">3:00 PM</option>
+
+										<option value="1530">3:30 PM</option>
+
+										<option value="1600">4:00 PM</option>
+
+										<option value="1630">4:30 PM</option>
+
+										<option value="1700">5:00 PM</option>
+
+										<option value="1730">5:30 PM</option>
+
+										<option value="1800">6:00 PM</option>
+
+										<option value="1830">6:30 PM</option>
+
+										<option value="1900">7:00 PM</option>
+
+										<option value="1930">7:30 PM</option>
+
+										<option value="2000">8:00 PM</option>
+
+										<option value="2030">8:30 PM</option>
+
+										<option value="2100">9:00 PM</option>
+
+										<option value="2130">9:30 PM</option>
+
+										<option value="2200">10:00 PM</option>
+									
+										<option value="1030">10:30 PM</option>
+
+								 		<option value="2300">11:00 PM</option>
+									
+										<option value="2330">11:30 PM</option>
+									
+										<option value="2400">12:00 PM</option>
+									
+								</select>
+								<p><input type="button" class="btn" name="btn" value="Submit"></p>
+								</form>
+								 		
+	    </section>
+	    	<br><br><br>
+
+							  <footer>
+<div class="footer">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+  <a class="faa" href="">PRESS</a>
+  <a class="faa" href="">CAREERS</a>
+   <a class="faa" href=#>GIFTS</a>
+  <a class="faa" href=#>SIGNUP FOR UPDATES</a>
+
+</div>
+</footer>
+
+
+</body>
+</html>

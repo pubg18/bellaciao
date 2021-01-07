@@ -1,0 +1,71 @@
+*
+body{
+  background-color:#FAEBF5 ;
+
+}
+h2{
+	margin-top: 100px;
+ text-align: center; 
+  font-family: 'Cormorant Garamond';
+}
+hr.solid {
+  border-bottom: 3px solid #000;
+  width: 70px;
+}
+.btn{
+  background-color: transparent;
+  border: 1px solid grey;
+  color: #000;
+  padding: 10px 40px; 
+  cursor: pointer; 
+  font-family: cursive;
+  font-size: 15px;
+  border-radius: 40px;
+  margin-left: 700px;
+}
+.btn:hover{
+	background-color: #000;
+	color: #fff;
+}
+.First{
+	margin-left: 10px;
+}
+.Last{
+	margin-left: 10px;
+}
+.Email {
+   
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.company{
+		margin-top: 10px;
+		margin-left: 10px;
+}
+.phone{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.la{
+	margin-left: 40px;
+}
+.noe{
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.unselected{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.date{
+margin-top: 10px;
+	margin-left: 10px;	
+}
+.sr{
+	margin-top: 10px;
+	margin-left: 10px;	
+}

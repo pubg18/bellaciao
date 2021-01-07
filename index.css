@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+header{
+	background-image: url(images/Menu.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+
+
+}
+ul li{
+	display: inline-block;
+	margin-top: 360px;
+
+
+}
+ul li a{
+	color:#fff;
+	text-decoration: none;
+	padding: 15px 10px;
+	margin-left: 40px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	
+}
+ul li a:hover{
+	background-color: transparent;
+	color:#5F9EA0 ;
+}
+.logo{
+	float: right;
+	background-color:transparent;
+}
